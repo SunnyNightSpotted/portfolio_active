@@ -1,21 +1,13 @@
 
 
-## Replace 3 Video Files with Compressed MP4 Versions
+## Update Password Gate Copy and Password
 
-### Steps
+Single file change: `src/components/PasswordGate.tsx`
 
-1. **Copy uploaded files to `public/videos/`**:
-   - `IO2_Solution_compressed.mp4` → `public/videos/IO2_Solution.mp4`
-   - `CAMON_Solution_compressed.mp4` → `public/videos/CAMON_Solution.mp4`
-   - `DM4_Overview_compressed.mp4` → `public/videos/DM4_Overview.mp4`
+1. Password: `"SunnyD"` → `"yooknow"`
+2. Headline: `"Under Construction"` → `"You've found the secret entrance."`
+3. Body copy: Replace the two paragraphs with one: `"The good stuff is behind this door. Password required."`
+4. Button label: `"View Work"` → `"See the Work"`
 
-2. **Delete old `.mov` files**:
-   - `public/videos/IO2_Overview.mov`
-   - `public/videos/CAMON_Solution.mov`
-   - `public/videos/DM4_Overview.mov`
-
-3. **Update `src/data/projects.ts`** — change video paths:
-   - IO2 Solution section: `/videos/IO2_Overview.mov` → `/videos/IO2_Solution.mp4`
-   - CAMON Solution section: `/videos/CAMON_Solution.mov` → `/videos/CAMON_Solution.mp4`
-   - DM4 Overview section: `/videos/DM4_Overview.mov` → `/videos/DM4_Overview.mp4`
+No changes to layout, spacing, colors, or fonts.
 
