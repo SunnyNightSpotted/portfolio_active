@@ -18,7 +18,7 @@ export const heroContent = {
 };
 
 export const homeLabels = {
-  selectedWork: "Selected Works",
+  selectedWork: "Selected Work",
 };
 
 // ─── About page ───
