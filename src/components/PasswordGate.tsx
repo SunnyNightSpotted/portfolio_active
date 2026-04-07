@@ -1,7 +1,7 @@
 import { useState, FormEvent } from "react";
 import { usePageTitle } from "@/hooks/usePageTitle";
 
-const SITE_PASSWORD = "SunnyD";
+const SITE_PASSWORD = "yooknow";
 
 const PasswordGate = ({ children }: { children: React.ReactNode }) => {
   const [unlocked, setUnlocked] = useState(
@@ -44,13 +44,10 @@ const PasswordGate = ({ children }: { children: React.ReactNode }) => {
           Stephanie Yoo
         </p>
         <h1 className="text-3xl font-bold mb-3" style={{ color: 'hsl(33 100% 97%)' }}>
-          Under Construction
+          You've found the secret entrance.
         </h1>
-        <p className="text-sm mb-1" style={{ color: 'hsl(33 100% 97% / 0.6)' }}>
-          This site is currently being updated with new work.
-        </p>
         <p className="text-sm mb-10" style={{ color: 'hsl(33 100% 97% / 0.6)' }}>
-          Enter the password to preview.
+          The good stuff is behind this door. Password required.
         </p>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
@@ -82,7 +79,7 @@ const PasswordGate = ({ children }: { children: React.ReactNode }) => {
               color: 'hsl(239 37% 32%)',
             }}
           >
-            View Work
+            See the Work
           </button>
         </form>
       </div>
