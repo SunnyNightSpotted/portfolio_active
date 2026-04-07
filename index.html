@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stephanie Yoo — UX/UI Designer</title>
+    <meta name="description" content="UX/UI Designer portfolio — Stephanie Yoo" />
+    <meta name="author" content="Stephanie Yoo" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <meta property="og:title" content="Stephanie Yoo — UX/UI Designer" />
+    <meta property="og:description" content="UX/UI Designer portfolio — Stephanie Yoo" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
