@@ -33,7 +33,7 @@ const ImagePlaceholder = ({ label }: { label: string }) => (
   </div>
 );
 
-const sectionsWithImages = ["Overview", "Design Process", "Solution"];
+const sectionsWithImages = ["Overview", "Design Process", "Solution", "Discovery & Research", "Impact"];
 
 const expandedByLens: Record<Exclude<LensKey, "default">, string[]> = {
   think: ["Challenge", "Discovery & Research", "Design Process", "Reflection"],
