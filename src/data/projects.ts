@@ -489,6 +489,8 @@ export const projects: Project[] = [
         label: "Impact",
         subtitle: "An audience pivot executed without rebuilding anything",
         body: "The website recommendations were implemented by the client's external development team. The campaign increased site exploration, engagement, and newsletter subscriptions.\n\nThe more durable proof point is what the project didn't require. No new architecture, no rebuild in functionality, no redesigned pages. The single odor-control insight and every UI decision amplified the pivot across every touchpoint.\n\nThe messaging reorientation also appears to have held: the current Naturally Fresh site leads with \"Love them. Don't smell them.\" and positions odor control as the primary product promise almost 4 years later, with sustainability as the supporting story. That's the argument the campaign kick started. It's still the argument the brand is making.\n\nAudience transitions don't always require new products or new infrastructure. Sometimes they require re-translating what already exists for the person who's actually standing in front of it.",
+        image: "/images/NF_Impact.png",
+        imageAlt: "Multi-device mockup showing the Live Odorless email campaign on laptop, the Where to Buy page with store locator and retailer logos on desktop, and the rebranded mobile homepage with product lineup",
       },
       {
         label: "Reflection",
