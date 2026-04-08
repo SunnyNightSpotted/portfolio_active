@@ -42,4 +42,10 @@ export const quickTakeBySlug: Record<string, QuickTake> = {
     keyMove: "Designed geo-stereo spatial audio strategy so visually impaired users could complete the game without seeing the screen.",
     outcome: "Shipped across 20+ countries with full accessibility. Launched alongside the highest-grossing animated film in history.",
   },
+  "first-student": {
+    role: "UX/UI Designer — site audit, component library, competitive analysis, high-fidelity mockups, brand portal, development handoff",
+    problem: "Years of visual inconsistency, no component library, a B2B brand that needed to communicate trust and scale to school district administrators, and a creative direction that changed twice before launch.",
+    keyMove: "Built a centralized Figma component library from style tokens so that when the brand color system changed twice during the engagement, the entire system updated without a rebuild.",
+    outcome: "Rebranded site live at firststudentinc.com. Design system absorbed two CMO transitions and two rounds of brand color changes within a single project.",
+  },
 };

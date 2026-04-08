@@ -44,6 +44,12 @@ export const lensContentBySlug: Record<string, LensContent> = {
     built: "Hybrid-interactive tutorial with game engine running underneath, geo-stereo sound design for spatial ball tracking, physical toy pixel-space integration, 10 character skins across 3 board designs, and in-game encouragement messaging at point thresholds.",
     mattered: "Launched on time across 20+ countries alongside the highest-grossing animated film in history, with accessibility strategized from day one.",
   },
+  "first-student": {
+    default: "Audited and rebuilt the design system for one of North America's largest student transportation companies, stabilizing a fragmented site before rebranding it, and delivering a component library that absorbed two CMO changes and two rounds of brand color updates during a single engagement.",
+    think: "Ran a manual page-by-page site audit to catalog all design debt before touching a component, then sequenced the work in two phases so developers could transition the live site incrementally rather than all at once.",
+    built: "Figma component library with centralized color tokens, standardized typography system, WCAG-tested contrast pairings, CMS-mapped template mockups for desktop and mobile, and a brand portal documenting decisions alongside outcomes.",
+    mattered: "The design system didn't just enable the rebrand. It survived the rebrands. When brand direction changed twice mid-engagement, the system updated in hours, not weeks.",
+  },
 };
 
 export const lensOrder: Record<LensKey, string[]> = {
@@ -54,6 +60,7 @@ export const lensOrder: Record<LensKey, string[]> = {
     "frequent-fryer-program",
     "hmpu-design-library",
     "pinside-out-io2",
+    "first-student",
   ],
   think: [
     "pinside-out-io2",
@@ -62,6 +69,7 @@ export const lensOrder: Record<LensKey, string[]> = {
     "mcdonalds-canada-monopoly",
     "frequent-fryer-program",
     "hmpu-design-library",
+    "first-student",
   ],
   built: [
     "hmpu-design-library",
@@ -70,6 +78,7 @@ export const lensOrder: Record<LensKey, string[]> = {
     "save-the-smile-dm4",
     "frequent-fryer-program",
     "wcdonalds",
+    "first-student",
   ],
   mattered: [
     "frequent-fryer-program",
@@ -78,5 +87,6 @@ export const lensOrder: Record<LensKey, string[]> = {
     "save-the-smile-dm4",
     "hmpu-design-library",
     "pinside-out-io2",
+    "first-student",
   ],
 };
