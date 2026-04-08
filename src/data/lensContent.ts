@@ -50,6 +50,7 @@ export const lensContentBySlug: Record<string, LensContent> = {
     built: "Annotated wireframes for 7 pages, 2 email campaign designs across 4 iterations, SEO keyword recommendations targeting odor control search terms, and full developer handoff documentation for an external team I never spoke to.",
     mattered: "An audience transition executed entirely through UI design. Same brand, same functionality, re-translated for the person who was actually buying.",
   },
+  "first-student": {
     default: "Audited and rebuilt the design system for one of North America's largest student transportation companies, stabilizing a fragmented site before rebranding it, and delivering a component library that absorbed two CMO changes and two rounds of brand color updates during a single engagement.",
     think: "Ran a manual page-by-page site audit to catalog all design debt before touching a component, then sequenced the work in two phases so developers could transition the live site incrementally rather than all at once.",
     built: "Figma component library with centralized color tokens, standardized typography system, WCAG-tested contrast pairings, CMS-mapped template mockups for desktop and mobile, and a brand portal documenting decisions alongside outcomes.",
