@@ -67,6 +67,7 @@ export const lensOrder: Record<LensKey, string[]> = {
     "hmpu-design-library",
     "pinside-out-io2",
     "first-student",
+    "naturally-fresh",
   ],
   think: [
     "pinside-out-io2",
@@ -76,6 +77,7 @@ export const lensOrder: Record<LensKey, string[]> = {
     "frequent-fryer-program",
     "hmpu-design-library",
     "first-student",
+    "naturally-fresh",
   ],
   built: [
     "hmpu-design-library",
@@ -85,6 +87,7 @@ export const lensOrder: Record<LensKey, string[]> = {
     "frequent-fryer-program",
     "wcdonalds",
     "first-student",
+    "naturally-fresh",
   ],
   mattered: [
     "frequent-fryer-program",
@@ -94,5 +97,6 @@ export const lensOrder: Record<LensKey, string[]> = {
     "hmpu-design-library",
     "pinside-out-io2",
     "first-student",
+    "naturally-fresh",
   ],
 };
