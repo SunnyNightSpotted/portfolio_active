@@ -2,22 +2,34 @@ import { useEffect } from "react";
 import { projects } from "@/data/projects";
 
 /**
- * Preloads all project hero images on initial site visit
+ * Preloads all project images on initial site visit
  * so they're cached before any case study is opened.
  */
 const ImagePreloader = () => {
   useEffect(() => {
-    const links: HTMLLinkElement[] = [];
+    const urls = new Set<string>();
+
     projects.forEach((project) => {
-      if (project.heroImage) {
-        const link = document.createElement("link");
-        link.rel = "preload";
-        link.as = "image";
-        link.href = project.heroImage;
-        document.head.appendChild(link);
-        links.push(link);
-      }
+      if (project.thumbnail) urls.add(project.thumbnail);
+      if (project.heroImage) urls.add(project.heroImage);
+      if (project.overviewImage) urls.add(project.overviewImage);
+      project.sections?.forEach((section) => {
+        if (section.image) urls.add(section.image);
+        if (section.imageBefore) urls.add(section.imageBefore);
+      });
     });
+
+    const links: HTMLLinkElement[] = [];
+    urls.forEach((href) => {
+      if (href === "/placeholder.svg") return;
+      const link = document.createElement("link");
+      link.rel = "preload";
+      link.as = "image";
+      link.href = href;
+      document.head.appendChild(link);
+      links.push(link);
+    });
+
     return () => {
       links.forEach((link) => {
         try { document.head.removeChild(link); } catch {}
