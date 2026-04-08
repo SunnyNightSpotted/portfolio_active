@@ -344,7 +344,7 @@ const CaseStudy = () => {
                         </p>
                       ))}
                     </div>
-                    {sectionsWithImages.includes(section.label) && section.imagePosition !== 'before' && (
+                    {sectionsWithImages.includes(section.label) && section.imagePosition !== 'before' && (section.video || section.image) && (
                       <div className="mt-10">
                         {section.video ? (
                           <CaseStudyMedia
@@ -360,9 +360,7 @@ const CaseStudy = () => {
                             alt={section.imageAlt || `${project.title} — ${section.label}`}
                             caption={section.imageCaption}
                           />
-                        ) : (
-                          <ImagePlaceholder label={section.label} />
-                        )}
+                        ) : null}
                       </div>
                     )}
                   </section>
