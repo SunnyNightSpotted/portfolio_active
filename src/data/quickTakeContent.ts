@@ -48,4 +48,10 @@ export const quickTakeBySlug: Record<string, QuickTake> = {
     keyMove: "Built a centralized Figma component library from style tokens so that when the brand color system changed twice during the engagement, the entire system updated without a rebuild.",
     outcome: "Rebranded site live at firststudentinc.com. Design system absorbed two CMO transitions and two rounds of brand color changes within a single project.",
   },
+  "naturally-fresh": {
+    role: "UX Design Lead — site assessment, annotated wireframes, email campaign design, SEO recommendations, developer handoff",
+    problem: "A brand audience transition: the existing site still spoke to older eco-conscious buyers while millennial cat dads had become the primary purchaser. Odor control was the top purchase driver. The site didn't mention it.",
+    keyMove: "Took the Creative Director's \"Live Odorless\" concept and made it work in digital, translating campaign intent into component behavior, email hierarchy, contrast-compliant color ratios, and developer handoff documentation for a team I never met.",
+    outcome: "Campaign increased site exploration, engagement, and newsletter subscriptions. Full UI and messaging pivot delivered in a 3-week sprint with no functional changes to the existing site.",
+  },
 };
