@@ -100,7 +100,7 @@ export const projects: Project[] = [
   {
     slug: "save-the-smile-dm4",
     title: "Save the Smile",
-    subtitle: "Designing an Accessible Global Game for McDonald's x Despicable Me 4",
+    subtitle: "Designing Save the Smile, an Accessible Global Game for McDonald's x Despicable Me 4",
     description: "An accessible game for 84 markets and 43 languages",
     thumbnail: "/images/DM4_Hero.png",
     heroImage: "/images/DM4_Hero.png",
