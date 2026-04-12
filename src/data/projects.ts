@@ -329,7 +329,7 @@ export const projects: Project[] = [
   {
     slug: "pinside-out-io2",
     title: "Pinside Out!",
-    subtitle: "Pinside Out!: the McDonald's x Inside Out 2 Happy Meal game, designed for kids who'd never encountered a pinball machine",
+    subtitle: "Designing Pinside Out, the McDonald's x Inside Out 2 Happy Meal Game for Kids Who've Never Known Pinball",
     description: "A mobile web pinball game for kids ages 5 to 9 tied to Inside Out 2, designed for an audience that had never encountered a pinball machine, with spatial audio accessibility that lets visually impaired users complete the game without seeing the screen.",
     thumbnail: "/images/IO2_Hero.png",
     heroImage: "/images/IO2_Hero.png",
