@@ -435,7 +435,7 @@ export const projects: Project[] = [
       },
       {
         label: "Reflection",
-        subtitle: "What I'd build differently",
+        subtitle: "Infrastructure outlasts the rebrand. Documentation outlasts the team.",
         body: "I'd add a formal content audit running parallel to the component audit. The visual audit mapped every UI pattern, but a parallel pass at messaging, what exists on each page, what's redundant, what's missing, would have given the wireframes a stronger strategic foundation.\n\nI'd also establish a component governance process as part of the library delivery, because a design system without governance can have a shorter expiration date.",
       },
     ],
