@@ -494,7 +494,7 @@ export const projects: Project[] = [
       },
       {
         label: "Reflection",
-        subtitle: "What I'd track differently",
+        subtitle: "Good judgment got us here. Better testing could have proven it.",
         body: "I'd track the full funnel. The campaign drove engagement and subscriptions, but I didn't have visibility into purchases at retailer sites. Tracking links on email CTAs and retailer buttons would have made the outcome story significantly more concrete.\n\nI'd also build A/B testing into the email sequence. The four iterations were sequential refinements based on judgment given the quick timelines, not controlled experiments. Even a single subject line or CTA placement test on the first send would have given the second email a data-backed starting point rather than an informed one.\n\nThe broader lesson: sometimes the most effective rebrand isn't a redesign. It's identifying who's actually in front of your product, understanding what they need to hear, and adjusting every visual and messaging decision until it lands for them.",
       },
     ],
