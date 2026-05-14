@@ -371,7 +371,7 @@ export const projects: Project[] = [
         subtitle: "10 skins, 3 boards, accessibility features, and a toy that lights up through the screen",
         body: "The shipped experience featured 10 character-specific game skins across 3 board designs, the hybrid-interactive tutorial with sequenced mechanics, physical toy integration with light-up effects, geo-stereo sound design for spatial ball tracking, full accessibility support (audio descriptions, closed captions, photosensitivity warnings, and screen reader navigation), and localization in English, Spanish, and Brazilian Portuguese. It launched across the US and LATAM markets timed to Inside Out 2's theatrical release.",
         video: "/videos/IO2_Solution.mp4",
-      },
+        videoAlt: "A video walkthrough of the final Inside Out 2 Happy Meal digital pinball experience, demonstrating the toy onboarding sequence, character selection, interactive tutorial screens, and live gameplay in motion.",
       {
         label: "Impact",
         subtitle: "Shipped on time across 20+ countries with accessibility built in from day one",
