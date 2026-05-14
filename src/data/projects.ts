@@ -487,14 +487,14 @@ export const projects: Project[] = [
         subtitle: "The right message on every surface, built for someone who won't read the brand story",
         body: "Every page assessment, every email iteration, and every SEO recommendation pointed the same direction. The annotated wireframes covered all seven pages. Two email campaigns shipped across four design iterations to help boost the effects of the website rebrand.\n\nUpdated content copy carried the odor control message into the sections that had been missing it entirely. The campaign ran under a single headline: \"live odorless.\" Direct, benefit-forward, and a clean break from the eco-first framing that had come before it.",
         image: "/images/NF_Solution.png",
-        imageAlt: "Annotated wireframe of the Naturally Fresh Ultra Odor Control product page showing updated copy recommendations, imagery swaps, and SEO keyword changes",
+        imageAlt: "Annotated desktop webpage for the Naturally Fresh Ultra Odor Control product, with green and purple callout boxes highlighting recommended copy updates, SEO keyword changes, and an image swap to better align visuals with the multi-cat odor control messaging.",
       },
       {
         label: "Impact",
         subtitle: "An audience pivot executed without rebuilding anything",
         body: "The website recommendations were implemented by the client's external development team. The campaign increased site exploration, engagement, and newsletter subscriptions.\n\nThe more durable proof point is what the project didn't require. No new architecture, no rebuild in functionality, no redesigned pages. The single odor-control insight and every UI decision amplified the pivot across every touchpoint.\n\nThe messaging reorientation also appears to have held: the current Naturally Fresh site leads with \"Love them. Don't smell them.\" and positions odor control as the primary product promise almost 4 years later, with sustainability as the supporting story. That's the argument the campaign kick started. It's still the argument the brand is making.\n\nAudience transitions don't always require new products or new infrastructure. Sometimes they require re-translating what already exists for the person who's actually standing in front of it.",
         image: "/images/NF_Impact.png",
-        imageAlt: "Multi-device mockup showing the Live Odorless email campaign on laptop, the Where to Buy page with store locator and retailer logos on desktop, and the rebranded mobile homepage with product lineup",
+        imageAlt: "Multi-device mockup showcasing Naturally Fresh digital marketing deliverables, including a promotional email campaign on a laptop, a retailer store locator landing page on a second laptop, and a mobile ad and email displayed on two mobile devices against a warm off-white background.",
       },
       {
         label: "Reflection",
