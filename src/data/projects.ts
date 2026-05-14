@@ -430,7 +430,7 @@ export const projects: Project[] = [
         subtitle: "Stabilize first, then transform",
         body: "The two-phase approach was deliberate: stabilize the existing site first, then apply the new brand on a clean foundation. Trying to fix structural problems and launch new visuals simultaneously would have been chaotic for developers and impossible to QA.\n\nDeliverables included the Figma component library, a brand portal for internal reference, competitive analysis documentation, homepage research, and high-fidelity desktop and mobile mockups for each CMS template.\n\nThe brand portal documented the reasoning behind specific choices, not just the outcomes.\n\nThe site went live at firststudentinc.com in 2022. The current site has gone through some iterations, but the design system as I created it, lives on. Clear typography hierarchy, color consistency, a trust signal section with award recognition, statistics communicating organizational scale, and a navigation structure with descriptive sublabels built for district administrators to be able to find exactly what they're looking for.",
         image: "/images/FIRST_Solution.png",
-        imageAlt: "Multi-device mockup showing the rebranded First Student website across desktop, laptop, tablet, and mobile viewports with consistent red, white, and blue design system",
+        imageAlt: "Multi-device mockup of the redesigned First Student website, displaying the updated homepage in various scroll states, services pages, and resource sections across two MacBook Airs and four iPhones, showcasing responsive layouts in the refreshed red, white, and navy brand system.",
       },
       {
         label: "Impact",
@@ -451,7 +451,7 @@ export const projects: Project[] = [
     description: "Reorienting a cat litter brand around what actually sells",
     thumbnail: "/images/NF_Hero.png",
     heroImage: "/images/NF_Hero.png",
-    heroAlt: "Naturally Fresh logo with walnut icon over a green-tinted background of walnut shell cat litter, with a cat's ears peeking up from the bottom",
+    heroAlt: "Hero banner for the Naturally Fresh cat litter brand, featuring the logo and walnut shell illustration centered on muted green background, with the top of a tabby kitten's head peeking up from the bottom edge of the frame.",
     overviewImage: "/images/NF_Overview.png",
     overviewAlt: "Side-by-side comparison of the Naturally Fresh website on mobile and desktop showing the updated homepage with promotional banner, hero imagery, and product lineup",
     role: "UX & UI Designer",
