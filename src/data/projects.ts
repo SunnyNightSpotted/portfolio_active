@@ -373,6 +373,7 @@ export const projects: Project[] = [
         video: "/videos/IO2_Solution.mp4",
         videoAlt: "A video walkthrough of the final Inside Out 2 Happy Meal digital pinball experience, demonstrating the toy onboarding sequence, character selection, interactive tutorial screens, and live gameplay in motion.",
       },
+      {
         label: "Impact",
         subtitle: "Shipped on time across 20+ countries with accessibility built in from day one",
         body: "The experience launched alongside what became the highest-grossing animated film in history at the time, with Inside Out 2 setting box office records in several of the same LATAM markets where the digital experience was live. The game shipped on time across 20+ countries and 3 languages with full accessibility support built in from the start rather than retrofitted. Parents reveled at the nostalgia and the chance to introduce their kids to a beloved game of their past: pinball.",
